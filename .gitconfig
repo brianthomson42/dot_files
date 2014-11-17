@@ -1,0 +1,8 @@
+[user]
+	email = brianthomson42@gmail.com
+	name = Brian Thomson
+[core]
+	editor = vim
+	excludesfile = /home/sy/.gitignore
+[push]
+	default = simple

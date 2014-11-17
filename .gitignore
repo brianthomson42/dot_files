@@ -1,0 +1,12 @@
+# vim files
+*~
+*.swp
+*.swo
+
+# OCaml files
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.cache
+*.log
