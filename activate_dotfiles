@@ -1,0 +1,17 @@
+#!/bin/bash
+
+dotfiledir=$PWD
+homedir=$HOME
+for dotfile in `ls -Ad .*`
+do
+  if [ -f $dotfile ]
+  then
+    if [ ! -L $homedir/$dotfile ]
+    then
+      echo "Creating $dotfile symlink in $homedir"
+      ln -s $dotfiledir/$dotfile $homedir/$dotfile
+    else
+      echo "$homedir/$dotfile already exists"
+    fi
+  fi
+done

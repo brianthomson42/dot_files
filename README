@@ -1,0 +1,3 @@
+Run the activate_dotfiles script to create symlinks
+in my home directory back to the actual dot files in
+the dot_files/ directory.
