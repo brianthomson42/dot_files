@@ -1,3 +1,11 @@
 Run the activate_dotfiles script to create symlinks
 in my home directory back to the actual dot files in
 the dot_files/ directory.
+
+Create new or update existing dot files. Then...
+o git remote add origin https://github.com/brianthomson42/dot_files.git
+o git push -u origin master
+
+To set up dot files on new machine...
+o git clone https://github.com/brianthomson42/dot_files.git
+o ./activate_dotfiles
