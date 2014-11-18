@@ -9,3 +9,5 @@ o git push -u origin master  # all subsequent updates
 To set up dot files on new machine...
 o git clone https://github.com/brianthomson42/dot_files.git
 o ./activate_dotfiles
+
+Note: the running of git clone and activate_dotfiles is deprecated via the use of Puppet.
